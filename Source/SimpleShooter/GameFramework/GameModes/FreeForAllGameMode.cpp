@@ -55,7 +55,7 @@ UClass* AFreeForAllGameMode::GetDefaultPawnClassForController_Implementation(ACo
 
 void AFreeForAllGameMode::SpawnBots()
 {
-	const uint8 NumSpawnBots = 1;
+	const uint8 NumSpawnBots = 2;
 
 	UWorld* World = GetWorld();
 	for (uint8 Index = 0; Index < NumSpawnBots; ++Index)
